@@ -11,7 +11,7 @@
 
 	<groupId>net.frozor</groupId>
 	<artifactId>restapi</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>restapi</name>
 	<description>REST API project</description>
@@ -20,6 +20,7 @@
 		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<start-class>net.frozor.restapi.RestApplication</start-class>
 	</properties>
 
 	<dependencies>
